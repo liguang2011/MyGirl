@@ -7,88 +7,146 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		835B71FF1F4B249600C28320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 835B71FE1F4B249600C28320 /* main.m */; };
-		835B72021F4B249600C28320 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 835B72011F4B249600C28320 /* AppDelegate.m */; };
-		835B72051F4B249600C28320 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835B72041F4B249600C28320 /* ViewController.m */; };
-		835B72081F4B249600C28320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835B72061F4B249600C28320 /* Main.storyboard */; };
-		835B720A1F4B249600C28320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835B72091F4B249600C28320 /* Assets.xcassets */; };
-		835B720D1F4B249600C28320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835B720B1F4B249600C28320 /* LaunchScreen.storyboard */; };
+		323EAB6E247C6D98C486ACC9 /* libPods-MyGirl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F64CB4F63C25499D2E2BF62 /* libPods-MyGirl.a */; };
+		83119E8E1F4B45FA002A35F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83119E8D1F4B45FA002A35F4 /* main.m */; };
+		83119E911F4B45FA002A35F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83119E901F4B45FA002A35F4 /* AppDelegate.m */; };
+		83119E941F4B45FA002A35F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83119E931F4B45FA002A35F4 /* ViewController.m */; };
+		83119E971F4B45FA002A35F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83119E951F4B45FA002A35F4 /* Main.storyboard */; };
+		83119E991F4B45FA002A35F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83119E981F4B45FA002A35F4 /* Assets.xcassets */; };
+		83119E9C1F4B45FA002A35F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83119E9A1F4B45FA002A35F4 /* LaunchScreen.storyboard */; };
+		83119EA81F4B4793002A35F4 /* HYPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83119EA71F4B4793002A35F4 /* HYPasswordView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		835B71FA1F4B249600C28320 /* MyGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		835B71FE1F4B249600C28320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		835B72001F4B249600C28320 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		835B72011F4B249600C28320 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		835B72031F4B249600C28320 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		835B72041F4B249600C28320 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		835B72071F4B249600C28320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		835B72091F4B249600C28320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		835B720C1F4B249600C28320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		835B720E1F4B249600C28320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCB98750688539FC0F0948A /* Pods-MyGirl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGirl.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyGirl/Pods-MyGirl.release.xcconfig"; sourceTree = "<group>"; };
+		529B2B9930CB3B75096E7102 /* Pods-MyGirl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGirl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyGirl/Pods-MyGirl.debug.xcconfig"; sourceTree = "<group>"; };
+		83119E891F4B45FA002A35F4 /* MyGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83119E8D1F4B45FA002A35F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83119E8F1F4B45FA002A35F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83119E901F4B45FA002A35F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83119E921F4B45FA002A35F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83119E931F4B45FA002A35F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83119E961F4B45FA002A35F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83119E981F4B45FA002A35F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83119E9B1F4B45FA002A35F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83119E9D1F4B45FA002A35F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83119EA61F4B4793002A35F4 /* HYPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPasswordView.h; sourceTree = "<group>"; };
+		83119EA71F4B4793002A35F4 /* HYPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPasswordView.m; sourceTree = "<group>"; };
+		83119EA91F4B480A002A35F4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8F64CB4F63C25499D2E2BF62 /* libPods-MyGirl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyGirl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		835B71F71F4B249500C28320 /* Frameworks */ = {
+		83119E861F4B45FA002A35F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323EAB6E247C6D98C486ACC9 /* libPods-MyGirl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		835B71F11F4B249500C28320 = {
+		265BF0316EAA335360638631 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				835B71FC1F4B249600C28320 /* MyGirl */,
-				835B71FB1F4B249600C28320 /* Products */,
+				529B2B9930CB3B75096E7102 /* Pods-MyGirl.debug.xcconfig */,
+				4CCB98750688539FC0F0948A /* Pods-MyGirl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6415FA475A429FBD40B3CFEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F64CB4F63C25499D2E2BF62 /* libPods-MyGirl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83119E801F4B45FA002A35F4 = {
+			isa = PBXGroup;
+			children = (
+				83119E8B1F4B45FA002A35F4 /* MyGirl */,
+				83119E8A1F4B45FA002A35F4 /* Products */,
+				265BF0316EAA335360638631 /* Pods */,
+				6415FA475A429FBD40B3CFEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		835B71FB1F4B249600C28320 /* Products */ = {
+		83119E8A1F4B45FA002A35F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				835B71FA1F4B249600C28320 /* MyGirl.app */,
+				83119E891F4B45FA002A35F4 /* MyGirl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		835B71FC1F4B249600C28320 /* MyGirl */ = {
+		83119E8B1F4B45FA002A35F4 /* MyGirl */ = {
 			isa = PBXGroup;
 			children = (
-				835B72001F4B249600C28320 /* AppDelegate.h */,
-				835B72011F4B249600C28320 /* AppDelegate.m */,
-				835B72031F4B249600C28320 /* ViewController.h */,
-				835B72041F4B249600C28320 /* ViewController.m */,
-				835B72061F4B249600C28320 /* Main.storyboard */,
-				835B72091F4B249600C28320 /* Assets.xcassets */,
-				835B720B1F4B249600C28320 /* LaunchScreen.storyboard */,
-				835B720E1F4B249600C28320 /* Info.plist */,
-				835B71FD1F4B249600C28320 /* Supporting Files */,
+				83119EA51F4B4766002A35F4 /* Model */,
+				83119EA41F4B4760002A35F4 /* View */,
+				83119EA31F4B4756002A35F4 /* ViewController */,
+				83119E8C1F4B45FA002A35F4 /* Supporting Files */,
 			);
 			path = MyGirl;
 			sourceTree = "<group>";
 		};
-		835B71FD1F4B249600C28320 /* Supporting Files */ = {
+		83119E8C1F4B45FA002A35F4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				835B71FE1F4B249600C28320 /* main.m */,
+				83119E901F4B45FA002A35F4 /* AppDelegate.m */,
+				83119E8F1F4B45FA002A35F4 /* AppDelegate.h */,
+				83119E9A1F4B45FA002A35F4 /* LaunchScreen.storyboard */,
+				83119E9D1F4B45FA002A35F4 /* Info.plist */,
+				83119E981F4B45FA002A35F4 /* Assets.xcassets */,
+				83119E951F4B45FA002A35F4 /* Main.storyboard */,
+				83119E8D1F4B45FA002A35F4 /* main.m */,
+				83119EA91F4B480A002A35F4 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83119EA31F4B4756002A35F4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				83119E921F4B45FA002A35F4 /* ViewController.h */,
+				83119E931F4B45FA002A35F4 /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		83119EA41F4B4760002A35F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83119EA61F4B4793002A35F4 /* HYPasswordView.h */,
+				83119EA71F4B4793002A35F4 /* HYPasswordView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		83119EA51F4B4766002A35F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		835B71F91F4B249500C28320 /* MyGirl */ = {
+		83119E881F4B45FA002A35F4 /* MyGirl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 835B72111F4B249600C28320 /* Build configuration list for PBXNativeTarget "MyGirl" */;
+			buildConfigurationList = 83119EA01F4B45FA002A35F4 /* Build configuration list for PBXNativeTarget "MyGirl" */;
 			buildPhases = (
-				835B71F61F4B249500C28320 /* Sources */,
-				835B71F71F4B249500C28320 /* Frameworks */,
-				835B71F81F4B249500C28320 /* Resources */,
+				981D11D136C98BBC389D95FF /* [CP] Check Pods Manifest.lock */,
+				83119E851F4B45FA002A35F4 /* Sources */,
+				83119E861F4B45FA002A35F4 /* Frameworks */,
+				83119E871F4B45FA002A35F4 /* Resources */,
+				CC3A04AB446426EAEA046A9F /* [CP] Embed Pods Frameworks */,
+				3A5613F3E1D6FD3B5936C602 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,26 +154,26 @@
 			);
 			name = MyGirl;
 			productName = MyGirl;
-			productReference = 835B71FA1F4B249600C28320 /* MyGirl.app */;
+			productReference = 83119E891F4B45FA002A35F4 /* MyGirl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		835B71F21F4B249500C28320 /* Project object */ = {
+		83119E811F4B45FA002A35F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Firstlight;
 				TargetAttributes = {
-					835B71F91F4B249500C28320 = {
+					83119E881F4B45FA002A35F4 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = K7M5Q2DUD5;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 835B71F51F4B249500C28320 /* Build configuration list for PBXProject "MyGirl" */;
+			buildConfigurationList = 83119E841F4B45FA002A35F4 /* Build configuration list for PBXProject "MyGirl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -123,55 +181,111 @@
 				en,
 				Base,
 			);
-			mainGroup = 835B71F11F4B249500C28320;
-			productRefGroup = 835B71FB1F4B249600C28320 /* Products */;
+			mainGroup = 83119E801F4B45FA002A35F4;
+			productRefGroup = 83119E8A1F4B45FA002A35F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				835B71F91F4B249500C28320 /* MyGirl */,
+				83119E881F4B45FA002A35F4 /* MyGirl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		835B71F81F4B249500C28320 /* Resources */ = {
+		83119E871F4B45FA002A35F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835B720D1F4B249600C28320 /* LaunchScreen.storyboard in Resources */,
-				835B720A1F4B249600C28320 /* Assets.xcassets in Resources */,
-				835B72081F4B249600C28320 /* Main.storyboard in Resources */,
+				83119E9C1F4B45FA002A35F4 /* LaunchScreen.storyboard in Resources */,
+				83119E991F4B45FA002A35F4 /* Assets.xcassets in Resources */,
+				83119E971F4B45FA002A35F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A5613F3E1D6FD3B5936C602 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyGirl/Pods-MyGirl-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGirl/Pods-MyGirl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		981D11D136C98BBC389D95FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyGirl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC3A04AB446426EAEA046A9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGirl/Pods-MyGirl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		835B71F61F4B249500C28320 /* Sources */ = {
+		83119E851F4B45FA002A35F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835B72051F4B249600C28320 /* ViewController.m in Sources */,
-				835B72021F4B249600C28320 /* AppDelegate.m in Sources */,
-				835B71FF1F4B249600C28320 /* main.m in Sources */,
+				83119E941F4B45FA002A35F4 /* ViewController.m in Sources */,
+				83119E911F4B45FA002A35F4 /* AppDelegate.m in Sources */,
+				83119EA81F4B4793002A35F4 /* HYPasswordView.m in Sources */,
+				83119E8E1F4B45FA002A35F4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		835B72061F4B249600C28320 /* Main.storyboard */ = {
+		83119E951F4B45FA002A35F4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				835B72071F4B249600C28320 /* Base */,
+				83119E961F4B45FA002A35F4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		835B720B1F4B249600C28320 /* LaunchScreen.storyboard */ = {
+		83119E9A1F4B45FA002A35F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				835B720C1F4B249600C28320 /* Base */,
+				83119E9B1F4B45FA002A35F4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,7 +293,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		835B720F1F4B249600C28320 /* Debug */ = {
+		83119E9E1F4B45FA002A35F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +340,7 @@
 			};
 			name = Debug;
 		};
-		835B72101F4B249600C28320 /* Release */ = {
+		83119E9F1F4B45FA002A35F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,11 +381,13 @@
 			};
 			name = Release;
 		};
-		835B72121F4B249600C28320 /* Debug */ = {
+		83119EA11F4B45FA002A35F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529B2B9930CB3B75096E7102 /* Pods-MyGirl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K7M5Q2DUD5;
+				GCC_PREFIX_HEADER = /Users/liguang/MyGirl/MyGirl/MyGirl/PrefixHeader.pch;
 				INFOPLIST_FILE = MyGirl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Firstlight.MyGirl;
@@ -279,11 +395,13 @@
 			};
 			name = Debug;
 		};
-		835B72131F4B249600C28320 /* Release */ = {
+		83119EA21F4B45FA002A35F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CCB98750688539FC0F0948A /* Pods-MyGirl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K7M5Q2DUD5;
+				GCC_PREFIX_HEADER = /Users/liguang/MyGirl/MyGirl/MyGirl/PrefixHeader.pch;
 				INFOPLIST_FILE = MyGirl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Firstlight.MyGirl;
@@ -294,24 +412,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		835B71F51F4B249500C28320 /* Build configuration list for PBXProject "MyGirl" */ = {
+		83119E841F4B45FA002A35F4 /* Build configuration list for PBXProject "MyGirl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				835B720F1F4B249600C28320 /* Debug */,
-				835B72101F4B249600C28320 /* Release */,
+				83119E9E1F4B45FA002A35F4 /* Debug */,
+				83119E9F1F4B45FA002A35F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		835B72111F4B249600C28320 /* Build configuration list for PBXNativeTarget "MyGirl" */ = {
+		83119EA01F4B45FA002A35F4 /* Build configuration list for PBXNativeTarget "MyGirl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				835B72121F4B249600C28320 /* Debug */,
-				835B72131F4B249600C28320 /* Release */,
+				83119EA11F4B45FA002A35F4 /* Debug */,
+				83119EA21F4B45FA002A35F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 835B71F21F4B249500C28320 /* Project object */;
+	rootObject = 83119E811F4B45FA002A35F4 /* Project object */;
 }
