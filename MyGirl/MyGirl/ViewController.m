@@ -10,8 +10,10 @@
 
 #import "ViewController.h"
 #import "HYPasswordView.h"
+#import "YJWaveAnimationInTool.h"
 
 @interface ViewController () <UITextFieldDelegate,HYPasswordViewDelegate>
+
 
 @end
 
@@ -19,14 +21,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //输入
     HYPasswordFieldModel *model = [HYPasswordFieldModel hyPasswordFieldModelWithSize:CGSizeMake(50, 50) margin:5 count:PassWordCount];
     HYPasswordView *passwordView = [HYPasswordView hyPasswordViewWithWidthFieldModel:model];
     [self.view addSubview:passwordView];
     
-//    passwordView.frame = CGRectMake(100, 100, 100, 100);
-    
     [passwordView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.left.right.equalTo(self.view);
         make.width.equalTo(@(50*PassWordCount + 5*(PassWordCount -1)));
         make.centerX.equalTo(self.view);
         make.top.equalTo(self.view).offset(100);
@@ -35,7 +36,7 @@
     passwordView.delegate = self;
     
 }
-
+#pragma mark password
 -(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
     NSLog(@"range:%@",NSStringFromRange(range));
@@ -47,8 +48,6 @@
 {
     NSLog(@"%@",passwordStr);
 }
-
-
 
 
 

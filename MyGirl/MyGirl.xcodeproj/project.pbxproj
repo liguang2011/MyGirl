@@ -15,6 +15,9 @@
 		83119E991F4B45FA002A35F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83119E981F4B45FA002A35F4 /* Assets.xcassets */; };
 		83119E9C1F4B45FA002A35F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83119E9A1F4B45FA002A35F4 /* LaunchScreen.storyboard */; };
 		83119EA81F4B4793002A35F4 /* HYPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83119EA71F4B4793002A35F4 /* HYPasswordView.m */; };
+		83119EB11F4B5042002A35F4 /* fb_rotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 83119EAD1F4B5042002A35F4 /* fb_rotation.png */; };
+		83119EB21F4B5042002A35F4 /* fb_wave.png in Resources */ = {isa = PBXBuildFile; fileRef = 83119EAE1F4B5042002A35F4 /* fb_wave.png */; };
+		83119EB31F4B5042002A35F4 /* YJWaveAnimationInTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 83119EB01F4B5042002A35F4 /* YJWaveAnimationInTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,10 @@
 		83119EA61F4B4793002A35F4 /* HYPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPasswordView.h; sourceTree = "<group>"; };
 		83119EA71F4B4793002A35F4 /* HYPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPasswordView.m; sourceTree = "<group>"; };
 		83119EA91F4B480A002A35F4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		83119EAD1F4B5042002A35F4 /* fb_rotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_rotation.png; sourceTree = "<group>"; };
+		83119EAE1F4B5042002A35F4 /* fb_wave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_wave.png; sourceTree = "<group>"; };
+		83119EAF1F4B5042002A35F4 /* YJWaveAnimationInTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJWaveAnimationInTool.h; sourceTree = "<group>"; };
+		83119EB01F4B5042002A35F4 /* YJWaveAnimationInTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJWaveAnimationInTool.m; sourceTree = "<group>"; };
 		8F64CB4F63C25499D2E2BF62 /* libPods-MyGirl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyGirl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,6 +93,8 @@
 		83119E8B1F4B45FA002A35F4 /* MyGirl */ = {
 			isa = PBXGroup;
 			children = (
+				83119EB41F4B5686002A35F4 /* Image */,
+				83119EAA1F4B503C002A35F4 /* Other */,
 				83119EA51F4B4766002A35F4 /* Model */,
 				83119EA41F4B4760002A35F4 /* View */,
 				83119EA31F4B4756002A35F4 /* ViewController */,
@@ -132,6 +141,40 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		83119EAA1F4B503C002A35F4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				83119EAB1F4B5042002A35F4 /* YJWaveAnimation */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		83119EAB1F4B5042002A35F4 /* YJWaveAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				83119EAC1F4B5042002A35F4 /* images */,
+				83119EAF1F4B5042002A35F4 /* YJWaveAnimationInTool.h */,
+				83119EB01F4B5042002A35F4 /* YJWaveAnimationInTool.m */,
+			);
+			path = YJWaveAnimation;
+			sourceTree = "<group>";
+		};
+		83119EAC1F4B5042002A35F4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				83119EAD1F4B5042002A35F4 /* fb_rotation.png */,
+				83119EAE1F4B5042002A35F4 /* fb_wave.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		83119EB41F4B5686002A35F4 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83119EB21F4B5042002A35F4 /* fb_wave.png in Resources */,
 				83119E9C1F4B45FA002A35F4 /* LaunchScreen.storyboard in Resources */,
+				83119EB11F4B5042002A35F4 /* fb_rotation.png in Resources */,
 				83119E991F4B45FA002A35F4 /* Assets.xcassets in Resources */,
 				83119E971F4B45FA002A35F4 /* Main.storyboard in Resources */,
 			);
@@ -268,6 +313,7 @@
 				83119E911F4B45FA002A35F4 /* AppDelegate.m in Sources */,
 				83119EA81F4B4793002A35F4 /* HYPasswordView.m in Sources */,
 				83119E8E1F4B45FA002A35F4 /* main.m in Sources */,
+				83119EB31F4B5042002A35F4 /* YJWaveAnimationInTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
