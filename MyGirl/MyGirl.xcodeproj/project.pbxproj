@@ -8,6 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		323EAB6E247C6D98C486ACC9 /* libPods-MyGirl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F64CB4F63C25499D2E2BF62 /* libPods-MyGirl.a */; };
+		830F9AC21F4C7B5A0057345A /* MGGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9AC11F4C7B5A0057345A /* MGGameViewController.m */; };
+		830F9AC51F4C7D010057345A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9AC41F4C7D010057345A /* BaseViewController.m */; };
+		830F9ACD1F4C80840057345A /* DDParabolaImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9AC81F4C80840057345A /* DDParabolaImageView.m */; };
+		830F9ACE1F4C80840057345A /* KACircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9ACA1F4C80840057345A /* KACircleProgressView.m */; };
+		830F9ACF1F4C80840057345A /* MakeThePointController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9ACC1F4C80840057345A /* MakeThePointController.m */; };
+		830F9AE21F4C90250057345A /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9AD51F4C90250057345A /* TAAbstractDotView.m */; };
+		830F9AE31F4C90250057345A /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9AD71F4C90250057345A /* TAAnimatedDotView.m */; };
+		830F9AE41F4C90250057345A /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9AD91F4C90250057345A /* TADotView.m */; };
+		830F9AE51F4C90250057345A /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9ADB1F4C90250057345A /* TAPageControl.m */; };
+		830F9AE61F4C90250057345A /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9ADD1F4C90250057345A /* SDCollectionViewCell.m */; };
+		830F9AE71F4C90250057345A /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9ADF1F4C90250057345A /* SDCycleScrollView.m */; };
+		830F9AE81F4C90250057345A /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9AE11F4C90250057345A /* UIView+SDExtension.m */; };
+		830F9AEB1F4C92F50057345A /* MGBridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F9AEA1F4C92F50057345A /* MGBridViewController.m */; };
+		830F9AF51F4C93460057345A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 830F9AED1F4C93460057345A /* 1.png */; };
+		830F9AF61F4C93460057345A /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 830F9AEE1F4C93460057345A /* bird1.png */; };
+		830F9AF71F4C93460057345A /* bluebird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 830F9AEF1F4C93460057345A /* bluebird1.png */; };
+		830F9AF81F4C93460057345A /* ice1.png in Resources */ = {isa = PBXBuildFile; fileRef = 830F9AF01F4C93460057345A /* ice1.png */; };
+		830F9AF91F4C93460057345A /* pig1.png in Resources */ = {isa = PBXBuildFile; fileRef = 830F9AF11F4C93460057345A /* pig1.png */; };
+		830F9AFA1F4C93460057345A /* pig_44.png in Resources */ = {isa = PBXBuildFile; fileRef = 830F9AF21F4C93460057345A /* pig_44.png */; };
+		830F9AFB1F4C93460057345A /* shelf1.png in Resources */ = {isa = PBXBuildFile; fileRef = 830F9AF31F4C93460057345A /* shelf1.png */; };
+		830F9AFC1F4C93460057345A /* yellowbird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 830F9AF41F4C93460057345A /* yellowbird1.png */; };
 		83119E8E1F4B45FA002A35F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83119E8D1F4B45FA002A35F4 /* main.m */; };
 		83119E911F4B45FA002A35F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83119E901F4B45FA002A35F4 /* AppDelegate.m */; };
 		83119E941F4B45FA002A35F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83119E931F4B45FA002A35F4 /* ViewController.m */; };
@@ -23,6 +44,43 @@
 /* Begin PBXFileReference section */
 		4CCB98750688539FC0F0948A /* Pods-MyGirl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGirl.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyGirl/Pods-MyGirl.release.xcconfig"; sourceTree = "<group>"; };
 		529B2B9930CB3B75096E7102 /* Pods-MyGirl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGirl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyGirl/Pods-MyGirl.debug.xcconfig"; sourceTree = "<group>"; };
+		830F9ABF1F4C760F0057345A /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		830F9AC01F4C7B5A0057345A /* MGGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGGameViewController.h; sourceTree = "<group>"; };
+		830F9AC11F4C7B5A0057345A /* MGGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGGameViewController.m; sourceTree = "<group>"; };
+		830F9AC31F4C7D010057345A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		830F9AC41F4C7D010057345A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		830F9AC71F4C80840057345A /* DDParabolaImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDParabolaImageView.h; sourceTree = "<group>"; };
+		830F9AC81F4C80840057345A /* DDParabolaImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDParabolaImageView.m; sourceTree = "<group>"; };
+		830F9AC91F4C80840057345A /* KACircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KACircleProgressView.h; sourceTree = "<group>"; };
+		830F9ACA1F4C80840057345A /* KACircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KACircleProgressView.m; sourceTree = "<group>"; };
+		830F9ACB1F4C80840057345A /* MakeThePointController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeThePointController.h; sourceTree = "<group>"; };
+		830F9ACC1F4C80840057345A /* MakeThePointController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeThePointController.m; sourceTree = "<group>"; };
+		830F9AD01F4C8FEF0057345A /* MGShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGShowViewController.h; sourceTree = "<group>"; };
+		830F9AD11F4C8FEF0057345A /* MGShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGShowViewController.m; sourceTree = "<group>"; };
+		830F9AD41F4C90250057345A /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		830F9AD51F4C90250057345A /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		830F9AD61F4C90250057345A /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		830F9AD71F4C90250057345A /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		830F9AD81F4C90250057345A /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		830F9AD91F4C90250057345A /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		830F9ADA1F4C90250057345A /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		830F9ADB1F4C90250057345A /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		830F9ADC1F4C90250057345A /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		830F9ADD1F4C90250057345A /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		830F9ADE1F4C90250057345A /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		830F9ADF1F4C90250057345A /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		830F9AE01F4C90250057345A /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		830F9AE11F4C90250057345A /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		830F9AE91F4C92F50057345A /* MGBridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBridViewController.h; sourceTree = "<group>"; };
+		830F9AEA1F4C92F50057345A /* MGBridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGBridViewController.m; sourceTree = "<group>"; };
+		830F9AED1F4C93460057345A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		830F9AEE1F4C93460057345A /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1.png; sourceTree = "<group>"; };
+		830F9AEF1F4C93460057345A /* bluebird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluebird1.png; sourceTree = "<group>"; };
+		830F9AF01F4C93460057345A /* ice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ice1.png; sourceTree = "<group>"; };
+		830F9AF11F4C93460057345A /* pig1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig1.png; sourceTree = "<group>"; };
+		830F9AF21F4C93460057345A /* pig_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig_44.png; sourceTree = "<group>"; };
+		830F9AF31F4C93460057345A /* shelf1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shelf1.png; sourceTree = "<group>"; };
+		830F9AF41F4C93460057345A /* yellowbird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowbird1.png; sourceTree = "<group>"; };
 		83119E891F4B45FA002A35F4 /* MyGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83119E8D1F4B45FA002A35F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83119E8F1F4B45FA002A35F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +130,63 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		830F9AC61F4C80670057345A /* LoopView */ = {
+			isa = PBXGroup;
+			children = (
+				830F9AC71F4C80840057345A /* DDParabolaImageView.h */,
+				830F9AC81F4C80840057345A /* DDParabolaImageView.m */,
+				830F9AC91F4C80840057345A /* KACircleProgressView.h */,
+				830F9ACA1F4C80840057345A /* KACircleProgressView.m */,
+				830F9ACB1F4C80840057345A /* MakeThePointController.h */,
+				830F9ACC1F4C80840057345A /* MakeThePointController.m */,
+			);
+			path = LoopView;
+			sourceTree = "<group>";
+		};
+		830F9AD21F4C90250057345A /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				830F9AD31F4C90250057345A /* PageControl */,
+				830F9ADC1F4C90250057345A /* SDCollectionViewCell.h */,
+				830F9ADD1F4C90250057345A /* SDCollectionViewCell.m */,
+				830F9ADE1F4C90250057345A /* SDCycleScrollView.h */,
+				830F9ADF1F4C90250057345A /* SDCycleScrollView.m */,
+				830F9AE01F4C90250057345A /* UIView+SDExtension.h */,
+				830F9AE11F4C90250057345A /* UIView+SDExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		830F9AD31F4C90250057345A /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				830F9AD41F4C90250057345A /* TAAbstractDotView.h */,
+				830F9AD51F4C90250057345A /* TAAbstractDotView.m */,
+				830F9AD61F4C90250057345A /* TAAnimatedDotView.h */,
+				830F9AD71F4C90250057345A /* TAAnimatedDotView.m */,
+				830F9AD81F4C90250057345A /* TADotView.h */,
+				830F9AD91F4C90250057345A /* TADotView.m */,
+				830F9ADA1F4C90250057345A /* TAPageControl.h */,
+				830F9ADB1F4C90250057345A /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		830F9AEC1F4C93460057345A /* 愤怒的小鸟 */ = {
+			isa = PBXGroup;
+			children = (
+				830F9AED1F4C93460057345A /* 1.png */,
+				830F9AEE1F4C93460057345A /* bird1.png */,
+				830F9AEF1F4C93460057345A /* bluebird1.png */,
+				830F9AF01F4C93460057345A /* ice1.png */,
+				830F9AF11F4C93460057345A /* pig1.png */,
+				830F9AF21F4C93460057345A /* pig_44.png */,
+				830F9AF31F4C93460057345A /* shelf1.png */,
+				830F9AF41F4C93460057345A /* yellowbird1.png */,
+			);
+			path = "愤怒的小鸟";
+			sourceTree = "<group>";
+		};
 		83119E801F4B45FA002A35F4 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +221,7 @@
 		83119E8C1F4B45FA002A35F4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				830F9ABF1F4C760F0057345A /* Config.h */,
 				83119E901F4B45FA002A35F4 /* AppDelegate.m */,
 				83119E8F1F4B45FA002A35F4 /* AppDelegate.h */,
 				83119E9A1F4B45FA002A35F4 /* LaunchScreen.storyboard */,
@@ -123,6 +239,14 @@
 			children = (
 				83119E921F4B45FA002A35F4 /* ViewController.h */,
 				83119E931F4B45FA002A35F4 /* ViewController.m */,
+				830F9AC01F4C7B5A0057345A /* MGGameViewController.h */,
+				830F9AC11F4C7B5A0057345A /* MGGameViewController.m */,
+				830F9AC31F4C7D010057345A /* BaseViewController.h */,
+				830F9AC41F4C7D010057345A /* BaseViewController.m */,
+				830F9AD01F4C8FEF0057345A /* MGShowViewController.h */,
+				830F9AD11F4C8FEF0057345A /* MGShowViewController.m */,
+				830F9AE91F4C92F50057345A /* MGBridViewController.h */,
+				830F9AEA1F4C92F50057345A /* MGBridViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -146,6 +270,9 @@
 		83119EAA1F4B503C002A35F4 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				830F9AEC1F4C93460057345A /* 愤怒的小鸟 */,
+				830F9AD21F4C90250057345A /* SDCycleScrollView */,
+				830F9AC61F4C80670057345A /* LoopView */,
 				83119EAB1F4B5042002A35F4 /* YJWaveAnimation */,
 			);
 			path = Other;
@@ -239,9 +366,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830F9AFB1F4C93460057345A /* shelf1.png in Resources */,
+				830F9AFC1F4C93460057345A /* yellowbird1.png in Resources */,
 				83119EB21F4B5042002A35F4 /* fb_wave.png in Resources */,
+				830F9AFA1F4C93460057345A /* pig_44.png in Resources */,
 				83119E9C1F4B45FA002A35F4 /* LaunchScreen.storyboard in Resources */,
+				830F9AF81F4C93460057345A /* ice1.png in Resources */,
+				830F9AF71F4C93460057345A /* bluebird1.png in Resources */,
 				83119EB11F4B5042002A35F4 /* fb_rotation.png in Resources */,
+				830F9AF51F4C93460057345A /* 1.png in Resources */,
+				830F9AF91F4C93460057345A /* pig1.png in Resources */,
+				830F9AF61F4C93460057345A /* bird1.png in Resources */,
 				83119E991F4B45FA002A35F4 /* Assets.xcassets in Resources */,
 				83119E971F4B45FA002A35F4 /* Main.storyboard in Resources */,
 			);
@@ -309,11 +444,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830F9ACD1F4C80840057345A /* DDParabolaImageView.m in Sources */,
+				830F9AE41F4C90250057345A /* TADotView.m in Sources */,
+				830F9ACE1F4C80840057345A /* KACircleProgressView.m in Sources */,
 				83119E941F4B45FA002A35F4 /* ViewController.m in Sources */,
+				830F9AE21F4C90250057345A /* TAAbstractDotView.m in Sources */,
 				83119E911F4B45FA002A35F4 /* AppDelegate.m in Sources */,
+				830F9AC21F4C7B5A0057345A /* MGGameViewController.m in Sources */,
+				830F9AE51F4C90250057345A /* TAPageControl.m in Sources */,
+				830F9AE61F4C90250057345A /* SDCollectionViewCell.m in Sources */,
 				83119EA81F4B4793002A35F4 /* HYPasswordView.m in Sources */,
 				83119E8E1F4B45FA002A35F4 /* main.m in Sources */,
+				830F9AE31F4C90250057345A /* TAAnimatedDotView.m in Sources */,
+				830F9AC51F4C7D010057345A /* BaseViewController.m in Sources */,
+				830F9AEB1F4C92F50057345A /* MGBridViewController.m in Sources */,
+				830F9ACF1F4C80840057345A /* MakeThePointController.m in Sources */,
 				83119EB31F4B5042002A35F4 /* YJWaveAnimationInTool.m in Sources */,
+				830F9AE81F4C90250057345A /* UIView+SDExtension.m in Sources */,
+				830F9AE71F4C90250057345A /* SDCycleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

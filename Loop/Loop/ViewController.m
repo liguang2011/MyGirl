@@ -47,7 +47,7 @@
         _imgView.backgroundColor = [UIColor redColor];
         
         _imgView.userInteractionEnabled = YES;
-        
+        _imgView.image = [UIImage imageNamed:@"phonebannerDefault"];
         _imgView.tag = 500;
         
         UIPanGestureRecognizer *panGester = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePanGestuere:)];
