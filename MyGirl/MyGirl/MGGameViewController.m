@@ -183,6 +183,34 @@
         
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             
+            
+            
+            NSInteger distance = 395 - self.secImg.centerY;
+            
+//            [MBProgressHUD showTipMessageInWindow:[NSString stringWithFormat:@"%zi",distance]];
+            if (distance > 0) {
+                if (distance < 100) {
+                    [MBProgressHUD showTipMessageInWindow:@"很遗憾,你的猪并没有滚太远"];
+                }else if(distance < 200){
+                    [MBProgressHUD showTipMessageInWindow:@"很遗憾,你的猪只滚开了一点点"];
+                }else {
+                    [MBProgressHUD showTipMessageInWindow:@"好棒哦,你的猪滚远了"];
+                }
+            }else {
+                if (-distance < 50) {
+                    [MBProgressHUD showTipMessageInWindow:@"很遗憾,你的猪并没有滚太远"];
+                }else if(-distance < 100){
+                    [MBProgressHUD showTipMessageInWindow:@"好棒哦,你的猪滚远了"];
+                }else if(-distance < 200){
+                    [MBProgressHUD showTipMessageInWindow:@"太残忍了，你的猪滚到了喜马拉雅山"];
+                }else {
+                    [MBProgressHUD showTipMessageInWindow:@"恭喜你，你的猪滚出了地球\n"];
+                }
+            }
+            
+            
+            
+            
             self.imgView.alpha = 1.0;
             
             [self.secImg removeFromSuperview];

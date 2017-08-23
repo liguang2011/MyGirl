@@ -18,6 +18,7 @@
 #import <MJExtension/MJExtension.h>
 
 #import <MJRefresh/MJRefresh.h>
+#import "MBProgressHUD+YT.h"
 #import "Config.h"
 
 #endif /* PrefixHeader_pch */

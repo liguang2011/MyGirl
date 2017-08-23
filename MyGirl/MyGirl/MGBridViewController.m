@@ -57,7 +57,7 @@
     
     int x = arc4random() % (int)self.view.bounds.size.width;
     
-    int siz = arc4random() % 50 + 30;
+    int siz = arc4random() % 50 + 60;
     
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(x, 10, siz, siz)];
     

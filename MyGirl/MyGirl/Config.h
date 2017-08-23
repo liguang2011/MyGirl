@@ -12,7 +12,7 @@
 //获取系统对象
 #define kApplication        [UIApplication sharedApplication]
 #define kAppWindow          [UIApplication sharedApplication].delegate.window
-#define kAppDelegate        [AppDelegate shareAppDelegate]
+#define kAppDelegate        [[UIApplication sharedApplication] delegate]
 #define kRootViewController [UIApplication sharedApplication].delegate.window.rootViewController
 #define kUserDefaults       [NSUserDefaults standardUserDefaults]
 #define kNotificationCenter [NSNotificationCenter defaultCenter]

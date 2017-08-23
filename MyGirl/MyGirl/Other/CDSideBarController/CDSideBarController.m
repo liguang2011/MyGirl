@@ -56,7 +56,9 @@
     }
 
     _backgroundMenuView.frame = CGRectMake(view.frame.size.width, 0, 190, view.frame.size.height);
-    _backgroundMenuView.backgroundColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:0.5f];
+//    _backgroundMenuView.backgroundColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:0.5f];
+    _backgroundMenuView.backgroundColor = kHexColor(0x4a4a4a);
+    _backgroundMenuView.alpha = 0.5;
     [view addSubview:_backgroundMenuView];
 }
 
@@ -98,7 +100,7 @@
 - (void)onMenuButtonClick:(UIButton*)button
 {
     if ([self.delegate respondsToSelector:@selector(menuButtonClicked:)])
-        [self.delegate menuButtonClicked:button.tag];
+        [self.delegate menuButtonClicked:(int)button.tag];
     [self dismissMenuWithSelection:button];
 }
 

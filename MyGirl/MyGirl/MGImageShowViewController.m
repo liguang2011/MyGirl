@@ -49,11 +49,15 @@ static CGFloat collectionHeight;
         make.top.equalTo(self.view).offset(70);
         make.left.equalTo(self.view).offset(30);
         make.right.equalTo(self.view).offset(-30);
-        make.height.equalTo(@160);
+        make.height.equalTo(@200);
     }];
+    textView.font = kFontNormal(16);
+    textView.textAlignment = NSTextAlignmentCenter;
     textView.backgroundColor = [UIColor clearColor];
     textView.textColor = [UIColor whiteColor];
-    textView.text = @"";
+    textView.userInteractionEnabled = NO;
+    textView.text = @"如白驹过隙 \n \n 自晚冬至夏末 \n \n 已六月有余矣 \n\n 此间留影 \n\n 共九十有五";
+    
 }
 
 -(void)updateBlur
@@ -93,7 +97,7 @@ static CGFloat collectionHeight;
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 100;
+    return 95;
 }
 
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
