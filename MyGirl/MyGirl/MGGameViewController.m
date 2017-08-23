@@ -86,6 +86,42 @@
     _progress.progressWidth = 10;
     
     [self.view addSubview:self.imgView];
+    
+    UIButton *buttonBoy = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:buttonBoy];
+    [buttonBoy mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.view).offset(-30);
+        make.left.equalTo(self.view).offset(30);
+        make.height.equalTo(@40);
+        make.width.equalTo(@60);
+    }];
+    buttonBoy.tag = 1;
+    [buttonBoy setTitle:@"选择猪" forState:UIControlStateNormal];
+    buttonBoy.layer.cornerRadius = 4;
+    buttonBoy.layer.borderColor = kHexColor(0xff6600).CGColor;
+    buttonBoy.layer.borderWidth = 1;
+    [buttonBoy setTitleColor:kHexColor(0xff6600) forState:UIControlStateNormal];
+    buttonBoy.layer.masksToBounds = YES;
+    buttonBoy.titleLabel.font = kFontNormal(14);
+    [buttonBoy addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIButton *buttonGirl = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:buttonGirl];
+    [buttonGirl mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.view).offset(-30);
+        make.right.equalTo(self.view).offset(-30);
+        make.height.equalTo(@40);
+        make.width.equalTo(@60);
+    }];
+    buttonGirl.tag = 2;
+    [buttonGirl setTitle:@"选择我" forState:UIControlStateNormal];
+    buttonGirl.layer.cornerRadius = 4;
+    buttonGirl.layer.borderColor = kHexColor(0xff6600).CGColor;
+    buttonGirl.layer.borderWidth = 1;
+    [buttonGirl setTitleColor:kHexColor(0xff6600) forState:UIControlStateNormal];
+    buttonGirl.layer.masksToBounds = YES;
+    buttonGirl.titleLabel.font = kFontNormal(14);
+    [buttonGirl addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 
@@ -124,7 +160,7 @@
         self.imgView.alpha = 0.0;
         
         self.secImg = [[DDParabolaImageView alloc] initWithFrame:self.imgView.frame];
-        
+        self.secImg.image = self.imgView.image;
         _secPoint = CGPointMake(self.imgView.frame.origin.x, self.imgView.frame.origin.y);
         
         [self.view addSubview:self.secImg];
@@ -182,6 +218,17 @@
 
 - (void)push {
 
+}
+
+- (void)click:(UIButton *)button {
+    if (button.tag == 1) {
+        //点击男孩
+        self.imgView.image = [UIImage imageNamed:@"boy.jpg"];
+        
+    }else if(button.tag == 2){
+        //点击女孩
+        self.imgView.image = [UIImage imageNamed:@"myGirl"];
+    }
 }
 
 @end

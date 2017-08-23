@@ -13,6 +13,8 @@
 #import "YJWaveAnimationInTool.h"
 #import "MGGameViewController.h"
 #import "MGBridViewController.h"
+#import "MGMenuViewController.h"
+
 
 @interface ViewController () <UITextFieldDelegate,HYPasswordViewDelegate>
 {
@@ -80,12 +82,10 @@
             }];
         }];
     }else {
-//        MGGameViewController *gameVC = [[MGGameViewController alloc]init];
-//        [gameVC setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
-//        [self presentViewController:gameVC animated:YES completion:nil];
-        MGBridViewController *birdVC = [[MGBridViewController alloc]init];
-        [birdVC setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
-        [self presentViewController:birdVC animated:YES completion:nil];
+        MGMenuViewController *gameVC = [[MGMenuViewController alloc]init];
+        [gameVC setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+        
+        [self presentViewController:[[UINavigationController alloc] initWithRootViewController:gameVC] animated:YES completion:nil];
     }
 }
 

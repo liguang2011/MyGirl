@@ -17,7 +17,7 @@
         self.backgroundColor = [UIColor redColor];
         self.layer.cornerRadius = 25;
         self.layer.masksToBounds = YES;
-        self.image = [UIImage imageNamed:@"myGirl"];
+//        self.image = [UIImage imageNamed:@"myGirl"];
     }
     return self;
 }
