@@ -741,8 +741,8 @@
 				TargetAttributes = {
 					83119E881F4B45FA002A35F4 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = HMA293BAHR;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = K7M5Q2DUD5;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1100,14 +1100,15 @@
 			baseConfigurationReference = 529B2B9930CB3B75096E7102 /* Pods-MyGirl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HMA293BAHR;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7M5Q2DUD5;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/MyGirl/PrefixHeader.pch";
 				INFOPLIST_FILE = MyGirl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Firstlight.MyGirl;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Firstlight.MyGirl-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b4a7a092-2da6-4b9a-8e40-0980ff1d78bc";
-				PROVISIONING_PROFILE_SPECIFIER = ALL_LG_20170911;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1116,14 +1117,15 @@
 			baseConfigurationReference = 4CCB98750688539FC0F0948A /* Pods-MyGirl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HMA293BAHR;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7M5Q2DUD5;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/MyGirl/PrefixHeader.pch";
 				INFOPLIST_FILE = MyGirl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Firstlight.MyGirl;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Firstlight.MyGirl-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b4a7a092-2da6-4b9a-8e40-0980ff1d78bc";
-				PROVISIONING_PROFILE_SPECIFIER = ALL_LG_20170911;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
